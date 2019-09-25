@@ -1,0 +1,79 @@
+int integer1,array1[10];
+char char2,array2[10];
+int AplusB(int a, int b) {
+	const int tempc = 1;
+	int temp;
+	int temp2;
+	return (a + b);
+}
+
+int AminusB(int a, int b) {
+	int temp;
+	return (a - b);
+}
+
+char caPluscb(char ca,char cb){
+	if(-ca+cb+3-'a' > 0){
+		return ('a');
+	}
+	else{
+		return ('b');
+	}
+}
+
+void main() {
+	char2 = 'd';
+	array2[1] = caPluscb(char2,char2);
+	char2 = '_';
+	char2 = 'a';
+	char2 = 'b';
+	char2 = 'c';
+	char2 = 'e';
+	char2 = 'f';
+	char2 = 'g';
+	char2 = 'h';
+	char2 = 'i';
+	char2 = 'j';
+	char2 = 'k';
+	char2 = 'l';
+	char2 = 'm';
+	char2 = 'n';
+	char2 = 'o';
+	char2 = 'p';
+	char2 = 'q';
+	char2 = 'r';
+	char2 = 's';
+	char2 = 't';
+	char2 = 'u';
+	char2 = 'v';
+	char2 = 'w';
+	char2 = 'x';
+	char2 = 'y';
+	char2 = 'z';
+	char2 = 'A';
+	char2 = 'B';
+	char2 = 'C';
+	char2 = 'D';
+	char2 = 'E';
+	char2 = 'F';
+	char2 = 'G';
+	char2 = 'H';
+	char2 = 'I';
+	char2 = 'J';
+	char2 = 'K';
+	char2 = 'L';
+	char2 = 'M';
+	char2 = 'N';
+	char2 = 'O';
+	char2 = 'P';
+	char2 = 'Q';
+	char2 = 'R';
+	char2 = 'S';
+	char2 = 'T';
+	char2 = 'U';
+	char2 = 'V';
+	char2 = 'W';
+	char2 = 'X';
+	char2 = 'Y';
+	char2 = 'Z';
+}
