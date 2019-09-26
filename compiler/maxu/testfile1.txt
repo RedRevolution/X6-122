@@ -1,0 +1,42 @@
+const int a0 = -32;
+const int a1 = +2;
+const char bb = 'a';
+int c;
+char d[2],e[3];
+
+int abs(int x){
+  if(x>=0){
+    return (x);
+  }
+  else {
+    return (-x);
+  }
+}
+
+int charToDigit(char x){
+  const int pp = 19;
+  return (x-'a');
+}
+
+char testChar(){
+  return ('a');
+}
+
+void main(){
+  const int e = 188,t = 2;
+  const char f = '6',l = 's';
+  int g,m;
+  char h,n;
+  {
+    scanf(h);
+    scanf(g);
+    m = charToDigit(h);
+    d[0] = '3';
+    g = m;
+    m = (1+2)*(d[0]+4);
+    printf(+h+1);
+    printf("\n");
+    printf("helloworld\n");
+    printf("test",h);
+  }
+}

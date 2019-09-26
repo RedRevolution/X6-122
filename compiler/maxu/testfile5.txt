@@ -1,0 +1,10 @@
+const int a = 0;
+
+
+void main(){
+  const int i = 10;
+  int j;
+  for(j=0;j<i;j=j-1){
+    printf(j);
+  }
+}

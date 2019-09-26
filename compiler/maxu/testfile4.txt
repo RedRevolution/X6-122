@@ -1,0 +1,14 @@
+void println(){
+  int a;
+  printf("\n");
+  return;
+  println();
+}
+
+void main(){
+  if(1)
+    println();
+  while(-1+1/1){
+
+  }
+}
