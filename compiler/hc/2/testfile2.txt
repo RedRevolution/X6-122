@@ -1,0 +1,27 @@
+const int coni1 = 3123123,coni2 = -4;
+const int coni3 = +5;
+const char plus = '+',minus = '-';
+const char multiply = '*';
+const char div = '/';
+
+void writeArray() {
+	printf("hello,wo'r'ld");
+}
+
+void main() {
+	if(coni1 < coni2){
+		writeArray();
+	}
+	if(coni2 <= coni3){
+		writeArray();
+	}
+	if(coni1 > coni3){
+		writeArray();
+	}
+	if(coni2 >= coni3){
+		writeArray();
+	}
+	if(coni1 != coni3){
+		writeArray();
+	}
+}
