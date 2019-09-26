@@ -1,0 +1,66 @@
+int fun1(){
+return (-0);
+}
+
+int fun(int t){
+const int a1 = 5, a2 = 4;
+int b, a, c[11], fd[484];
+char d;
+
+d = '4';
+if(d>='E'){
+a = 1;
+}
+
+if(d<='E'){
+a = 1;
+}
+
+a = 1;
+if (a != a1){
+b = a1+1;
+}
+else{
+b = a2;
+}
+
+if(a == 1){
+}
+
+if(a){
+} else{}
+
+while(b<=a1){
+b = b + 1;
+}
+
+while(a-1){
+}
+
+do{
+b = b + 1;
+}while(a-1)
+
+do{
+b = b - 1;
+}while(b > 0)
+
+for(b = a2;b < a1;b = b+1){
+a = a+1;
+}
+
+for(b = a2;0;b = b-1){
+a = a+1;
+printf(a);
+}
+
+b = (b-1)/(2*4);
+
+if(b>0)return(b);
+else return(fun1());
+
+}
+
+void main(){
+fun(fun1());
+}

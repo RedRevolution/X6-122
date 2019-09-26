@@ -1,0 +1,21 @@
+const int a = +232;
+
+int fun1(){
+return (1);
+}
+
+int fun2(){
+return (fun1());
+}
+
+char fun3(){
+return ('_');
+}
+
+char fun4(){
+return (fun3());
+}
+
+void main(){
+printf(fun2());
+}

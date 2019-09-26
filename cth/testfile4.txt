@@ -1,0 +1,15 @@
+int tt;
+
+void fun(){
+int c,d;
+scanf(c,d);
+printf("hello world");
+printf("hello world",-c);
+}
+
+void main(){
+int a[2], b;
+fun();
+a[0] = 1;
+b = 'c' + 10;
+}

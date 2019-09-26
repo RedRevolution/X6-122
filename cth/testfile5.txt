@@ -1,0 +1,27 @@
+int fun2(){
+return (2);
+}
+
+int fun(int a){
+int b[100];
+b[0] = 1;
+{
+a = a+1;
+}
+{
+;
+}
+a = a*fun2()*'3'-3+ (4*3) + b[(4-4)]*b[0]; 
+b[1] = (b[0] + 1); 
+return (a*2);
+}
+
+void fun1(){
+}
+
+void main(){
+int a[1];
+a[0] = 1;
+fun1();
+printf(fun(a[0]));
+}
