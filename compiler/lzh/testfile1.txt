@@ -1,0 +1,30 @@
+const int constint = 0;
+const int constint1 = -1, constint2 = -340;
+const char constchar = '*';
+const char constchar1 = 'a', constchar2 = '5';
+int varint[5];
+int varchar;
+
+int func1(int num, char ch){
+return (constint*num);
+}
+
+void func2(){
+printf("hello",constint);
+printf("world");
+printf("%c",constchar);
+}
+
+void func3(){
+;
+}
+
+void main(){
+const int a=4;
+char b;
+ b=  '-';
+scanf(b);
+ varchar= -a - constint1;
+;
+printf("done",constint);
+}

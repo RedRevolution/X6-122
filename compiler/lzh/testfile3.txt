@@ -1,0 +1,38 @@
+int var_int[5],var_int2[10];
+char var_char,varchar[111];
+
+int func1() {
+    return (2);
+}
+char func3(char ch){
+    return (ch);
+}
+
+void func2(int tmp) {
+    ;
+    printf("hello%d", var_int[0]);
+    printf("world");
+    printf(var_int[1]);
+}
+
+void main() {
+    char b;
+    int a;
+    int c;
+    b = '+';
+    for (a = 0; a < 3; a = a + 1) {
+        var_int[a] = a * 128 / 3;
+        c = a;
+        if (a == 2) {
+            c = c + 6;
+        } else {
+            c = c + 7;
+        }
+    }
+    for(a = 0 ;a !=-5; a = a - 1){
+        a=a-1+(+5);
+    }
+    func2(a);
+    func1();
+    a = a * var_int[a] * (+a + 1) * 4 * '+' * func1();
+}
