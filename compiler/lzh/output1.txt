@@ -3,6 +3,9 @@ INTTK int
 IDENFR constint
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 INTTK int
@@ -10,17 +13,23 @@ IDENFR constint1
 ASSIGN =
 MINU -
 INTCON 1
+<无符号整数>
+<整数>
 COMMA ,
 IDENFR constint2
 ASSIGN =
 MINU -
 INTCON 340
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 CHARTK char
 IDENFR constchar
 ASSIGN =
 CHARCON *
+<常量定义>
 SEMICN ;
 CONSTTK const
 CHARTK char
@@ -31,66 +40,107 @@ COMMA ,
 IDENFR constchar2
 ASSIGN =
 CHARCON 5
+<常量定义>
 SEMICN ;
+<常量说明>
 INTTK int
 IDENFR varint
 LBRACK [
 INTCON 5
+<无符号整数>
 RBRACK ]
+<变量定义>
 SEMICN ;
 INTTK int
 IDENFR varchar
+<变量定义>
 SEMICN ;
+<变量说明>
 INTTK int
 IDENFR func1
+<声明头部>
 LPARENT (
 INTTK int
 IDENFR num
 COMMA ,
 CHARTK char
 IDENFR ch
+<参数表>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 IDENFR constint
+<因子>
 MULT *
 IDENFR num
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 VOIDTK void
 IDENFR func2
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 PRINTFTK printf
 LPARENT (
 STRCON hello
+<字符串>
 COMMA ,
 IDENFR constint
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 STRCON world
+<字符串>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 STRCON %c
+<字符串>
 COMMA ,
 IDENFR constchar
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<无返回值函数定义>
 VOIDTK void
 IDENFR func3
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<无返回值函数定义>
 VOIDTK void
 MAINTK main
 LPARENT (
@@ -101,32 +151,63 @@ INTTK int
 IDENFR a
 ASSIGN =
 INTCON 4
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
+<常量说明>
 CHARTK char
 IDENFR b
+<变量定义>
 SEMICN ;
+<变量说明>
 IDENFR b
 ASSIGN =
 CHARCON -
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 SCANFTK scanf
 LPARENT (
 IDENFR b
 RPARENT )
+<读语句>
 SEMICN ;
+<语句>
 IDENFR varchar
 ASSIGN =
 MINU -
 IDENFR a
+<因子>
+<项>
 MINU -
 IDENFR constint1
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 STRCON done
+<字符串>
 COMMA ,
 IDENFR constint
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>

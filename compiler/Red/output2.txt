@@ -4,55 +4,105 @@ IDENFR a
 ASSIGN =
 PLUS +
 INTCON 232
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
+<常量说明>
 INTTK int
 IDENFR fun1
+<声明头部>
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 INTTK int
 IDENFR fun2
+<声明头部>
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 IDENFR fun1
 LPARENT (
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 CHARTK char
 IDENFR fun3
+<声明头部>
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 CHARCON _
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 CHARTK char
 IDENFR fun4
+<声明头部>
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 IDENFR fun3
 LPARENT (
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 VOIDTK void
 MAINTK main
 LPARENT (
@@ -62,7 +112,18 @@ PRINTFTK printf
 LPARENT (
 IDENFR fun2
 LPARENT (
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>
