@@ -4,6 +4,9 @@ IDENFR a0
 ASSIGN =
 MINU -
 INTCON 32
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 INTTK int
@@ -11,62 +14,104 @@ IDENFR a1
 ASSIGN =
 PLUS +
 INTCON 2
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 CHARTK char
 IDENFR bb
 ASSIGN =
 CHARCON a
+<常量定义>
 SEMICN ;
+<常量说明>
 INTTK int
 IDENFR c
+<变量定义>
 SEMICN ;
 CHARTK char
 IDENFR d
 LBRACK [
 INTCON 2
+<无符号整数>
 RBRACK ]
 COMMA ,
 IDENFR e
 LBRACK [
 INTCON 3
+<无符号整数>
 RBRACK ]
+<变量定义>
 SEMICN ;
+<变量说明>
 INTTK int
 IDENFR abs
+<声明头部>
 LPARENT (
 INTTK int
 IDENFR x
+<参数表>
 RPARENT )
 LBRACE {
 IFTK if
 LPARENT (
 IDENFR x
+<因子>
+<项>
+<表达式>
 GEQ >=
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 IDENFR x
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
 ELSETK else
 LBRACE {
 RETURNTK return
 LPARENT (
 MINU -
 IDENFR x
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 INTTK int
 IDENFR charToDigit
+<声明头部>
 LPARENT (
 CHARTK char
 IDENFR x
+<参数表>
 RPARENT )
 LBRACE {
 CONSTTK const
@@ -74,26 +119,50 @@ INTTK int
 IDENFR pp
 ASSIGN =
 INTCON 19
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
+<常量说明>
 RETURNTK return
 LPARENT (
 IDENFR x
+<因子>
+<项>
 MINU -
 CHARCON a
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 CHARTK char
 IDENFR testChar
+<声明头部>
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 CHARCON a
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 VOIDTK void
 MAINTK main
 LPARENT (
@@ -104,10 +173,15 @@ INTTK int
 IDENFR e
 ASSIGN =
 INTCON 188
+<无符号整数>
+<整数>
 COMMA ,
 IDENFR t
 ASSIGN =
 INTCON 2
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 CHARTK char
@@ -118,87 +192,175 @@ COMMA ,
 IDENFR l
 ASSIGN =
 CHARCON s
+<常量定义>
 SEMICN ;
+<常量说明>
 INTTK int
 IDENFR g
 COMMA ,
 IDENFR m
+<变量定义>
 SEMICN ;
 CHARTK char
 IDENFR h
 COMMA ,
 IDENFR n
+<变量定义>
 SEMICN ;
+<变量说明>
 LBRACE {
 SCANFTK scanf
 LPARENT (
 IDENFR h
 RPARENT )
+<读语句>
 SEMICN ;
+<语句>
 SCANFTK scanf
 LPARENT (
 IDENFR g
 RPARENT )
+<读语句>
 SEMICN ;
+<语句>
 IDENFR m
 ASSIGN =
 IDENFR charToDigit
 LPARENT (
 IDENFR h
+<因子>
+<项>
+<表达式>
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 IDENFR d
 LBRACK [
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RBRACK ]
 ASSIGN =
 CHARCON 3
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 IDENFR g
 ASSIGN =
 IDENFR m
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 IDENFR m
 ASSIGN =
 LPARENT (
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
 PLUS +
 INTCON 2
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<因子>
 MULT *
 LPARENT (
 IDENFR d
 LBRACK [
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RBRACK ]
+<因子>
+<项>
 PLUS +
 INTCON 4
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 PLUS +
 IDENFR h
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 STRCON \n
+<字符串>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 STRCON helloworld\n
+<字符串>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 STRCON test
+<字符串>
 COMMA ,
 IDENFR h
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>
