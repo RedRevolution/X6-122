@@ -1,50 +1,31 @@
-INTTK int
-IDENFR tt
-<变量定义>
-SEMICN ;
-<变量说明>
 VOIDTK void
-IDENFR fun
+IDENFR println
 LPARENT (
 <参数表>
 RPARENT )
 LBRACE {
 INTTK int
-IDENFR c
-COMMA ,
-IDENFR d
+IDENFR a
 <变量定义>
 SEMICN ;
 <变量说明>
-SCANFTK scanf
-LPARENT (
-IDENFR c
-COMMA ,
-IDENFR d
-RPARENT )
-<读语句>
-SEMICN ;
-<语句>
 PRINTFTK printf
 LPARENT (
-STRCON hello world
+STRCON \n
 <字符串>
 RPARENT )
 <写语句>
 SEMICN ;
 <语句>
-PRINTFTK printf
+RETURNTK return
+<返回语句>
+SEMICN ;
+<语句>
+IDENFR println
 LPARENT (
-STRCON hello world
-<字符串>
-COMMA ,
-MINU -
-IDENFR c
-<因子>
-<项>
-<表达式>
+<值参数表>
 RPARENT )
-<写语句>
+<无返回值函数调用语句>
 SEMICN ;
 <语句>
 <语句列>
@@ -56,57 +37,52 @@ MAINTK main
 LPARENT (
 RPARENT )
 LBRACE {
-INTTK int
-IDENFR a
-LBRACK [
-INTCON 2
-<无符号整数>
-RBRACK ]
-COMMA ,
-IDENFR b
-<变量定义>
-SEMICN ;
-<变量说明>
-IDENFR fun
+IFTK if
 LPARENT (
-<值参数表>
-RPARENT )
-<无返回值函数调用语句>
-SEMICN ;
-<语句>
-IDENFR a
-LBRACK [
-INTCON 0
-<无符号整数>
-<整数>
-<因子>
-<项>
-<表达式>
-RBRACK ]
-ASSIGN =
 INTCON 1
 <无符号整数>
 <整数>
 <因子>
 <项>
 <表达式>
-<赋值语句>
+<条件>
+RPARENT )
+IDENFR println
+LPARENT (
+<值参数表>
+RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
 <语句>
-IDENFR b
-ASSIGN =
-CHARCON c
+<条件语句>
+<语句>
+WHILETK while
+LPARENT (
+MINU -
+INTCON 1
+<无符号整数>
+<整数>
 <因子>
 <项>
 PLUS +
-INTCON 10
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+DIV /
+INTCON 1
 <无符号整数>
 <整数>
 <因子>
 <项>
 <表达式>
-<赋值语句>
-SEMICN ;
+<条件>
+RPARENT )
+LBRACE {
+<语句列>
+RBRACE }
+<语句>
+<循环语句>
 <语句>
 <语句列>
 <复合语句>

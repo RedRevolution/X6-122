@@ -3,11 +3,16 @@ INTTK int
 IDENFR coni1
 ASSIGN =
 INTCON 3123123
+<无符号整数>
+<整数>
 COMMA ,
 IDENFR coni2
 ASSIGN =
 MINU -
 INTCON 4
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 INTTK int
@@ -15,6 +20,9 @@ IDENFR coni3
 ASSIGN =
 PLUS +
 INTCON 5
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 CHARTK char
@@ -25,30 +33,41 @@ COMMA ,
 IDENFR minus
 ASSIGN =
 CHARCON -
+<常量定义>
 SEMICN ;
 CONSTTK const
 CHARTK char
 IDENFR multiply
 ASSIGN =
 CHARCON *
+<常量定义>
 SEMICN ;
 CONSTTK const
 CHARTK char
 IDENFR div
 ASSIGN =
 CHARCON /
+<常量定义>
 SEMICN ;
+<常量说明>
 VOIDTK void
 IDENFR writeArray
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 PRINTFTK printf
 LPARENT (
 STRCON hello,wo'r'ld
+<字符串>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<无返回值函数定义>
 VOIDTK void
 MAINTK main
 LPARENT (
@@ -57,61 +76,135 @@ LBRACE {
 IFTK if
 LPARENT (
 IDENFR coni1
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR coni2
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR writeArray
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
 LPARENT (
 IDENFR coni2
+<因子>
+<项>
+<表达式>
 LEQ <=
 IDENFR coni3
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR writeArray
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
 LPARENT (
 IDENFR coni1
+<因子>
+<项>
+<表达式>
 GRE >
 IDENFR coni3
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR writeArray
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
 LPARENT (
 IDENFR coni2
+<因子>
+<项>
+<表达式>
 GEQ >=
 IDENFR coni3
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR writeArray
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
 LPARENT (
 IDENFR coni1
+<因子>
+<项>
+<表达式>
 NEQ !=
 IDENFR coni3
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR writeArray
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>

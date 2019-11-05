@@ -3,7 +3,9 @@ CHARTK char
 IDENFR C
 ASSIGN =
 CHARCON D
+<常量定义>
 SEMICN ;
+<常量说明>
 VOIDTK void
 MAINTK main
 LPARENT (
@@ -15,13 +17,24 @@ IDENFR a
 ASSIGN =
 MINU -
 INTCON 5
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 CHARTK char
 IDENFR B
 ASSIGN =
 CHARCON A
+<常量定义>
 SEMICN ;
+<常量说明>
 RETURNTK return
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>

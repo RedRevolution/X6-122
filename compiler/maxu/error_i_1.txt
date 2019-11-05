@@ -1,0 +1,17 @@
+const int const1 = 1, const2 = -100;
+const char const3 = '_';
+int change1;
+int change2[5];
+char change3;
+int gets1(int var1,int var2){
+    change1 = var1 + var2;
+    return (change1);
+}
+void main(){
+	change2[1] = 1;
+	change2['a'] = 1;
+	change1 = change2[1];
+	change1 = change2['b'] ;
+    printf("Hello World");
+    printf(gets1(10, 20));
+}

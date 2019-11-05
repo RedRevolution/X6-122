@@ -1,105 +1,228 @@
 INTTK int
 IDENFR fun2
+<声明头部>
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 INTCON 2
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 INTTK int
 IDENFR fun
+<声明头部>
 LPARENT (
 INTTK int
 IDENFR a
+<参数表>
 RPARENT )
 LBRACE {
 INTTK int
 IDENFR b
 LBRACK [
 INTCON 100
+<无符号整数>
 RBRACK ]
+<变量定义>
 SEMICN ;
+<变量说明>
 IDENFR b
 LBRACK [
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RBRACK ]
 ASSIGN =
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 LBRACE {
 IDENFR a
 ASSIGN =
 IDENFR a
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
 LBRACE {
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
 IDENFR a
 ASSIGN =
 IDENFR a
+<因子>
 MULT *
 IDENFR fun2
 LPARENT (
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
+<因子>
 MULT *
 CHARCON 3
+<因子>
+<项>
 MINU -
 INTCON 3
+<无符号整数>
+<整数>
+<因子>
+<项>
 PLUS +
 LPARENT (
 INTCON 4
+<无符号整数>
+<整数>
+<因子>
 MULT *
 INTCON 3
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<因子>
+<项>
 PLUS +
 IDENFR b
 LBRACK [
 LPARENT (
 INTCON 4
+<无符号整数>
+<整数>
+<因子>
+<项>
 MINU -
 INTCON 4
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<因子>
+<项>
+<表达式>
 RBRACK ]
+<因子>
 MULT *
 IDENFR b
 LBRACK [
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RBRACK ]
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 IDENFR b
 LBRACK [
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RBRACK ]
 ASSIGN =
 LPARENT (
 IDENFR b
 LBRACK [
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RBRACK ]
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 RETURNTK return
 LPARENT (
 IDENFR a
+<因子>
 MULT *
 INTCON 2
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 VOIDTK void
 IDENFR fun1
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
+<语句列>
+<复合语句>
 RBRACE }
+<无返回值函数定义>
 VOIDTK void
 MAINTK main
 LPARENT (
@@ -109,19 +232,37 @@ INTTK int
 IDENFR a
 LBRACK [
 INTCON 1
+<无符号整数>
 RBRACK ]
+<变量定义>
 SEMICN ;
+<变量说明>
 IDENFR a
 LBRACK [
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RBRACK ]
 ASSIGN =
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 IDENFR fun1
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 IDENFR fun
@@ -129,8 +270,27 @@ LPARENT (
 IDENFR a
 LBRACK [
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RBRACK ]
+<因子>
+<项>
+<表达式>
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>

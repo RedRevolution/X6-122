@@ -1,6 +1,0 @@
-VOIDTK void
-MAINTK main
-LPARENT (
-RPARENT )
-LBRACE {
-RBRACE }
