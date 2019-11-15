@@ -1,20 +1,34 @@
 INTTK int
 IDENFR fun1
+<声明头部>
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 MINU -
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 INTTK int
 IDENFR fun
+<声明头部>
 LPARENT (
 INTTK int
 IDENFR t
+<参数表>
 RPARENT )
 LBRACE {
 CONSTTK const
@@ -22,11 +36,17 @@ INTTK int
 IDENFR a1
 ASSIGN =
 INTCON 5
+<无符号整数>
+<整数>
 COMMA ,
 IDENFR a2
 ASSIGN =
 INTCON 4
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
+<常量说明>
 INTTK int
 IDENFR b
 COMMA ,
@@ -35,223 +55,502 @@ COMMA ,
 IDENFR c
 LBRACK [
 INTCON 11
+<无符号整数>
 RBRACK ]
 COMMA ,
 IDENFR fd
 LBRACK [
 INTCON 484
+<无符号整数>
 RBRACK ]
+<变量定义>
 SEMICN ;
 CHARTK char
 IDENFR d
+<变量定义>
 SEMICN ;
+<变量说明>
 IDENFR d
 ASSIGN =
 CHARCON 4
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 IFTK if
 LPARENT (
 IDENFR d
+<因子>
+<项>
+<表达式>
 GEQ >=
 CHARCON E
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR a
 ASSIGN =
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
 LPARENT (
 IDENFR d
+<因子>
+<项>
+<表达式>
 LEQ <=
 CHARCON E
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR a
 ASSIGN =
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IDENFR a
 ASSIGN =
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 IFTK if
 LPARENT (
 IDENFR a
+<因子>
+<项>
+<表达式>
 NEQ !=
 IDENFR a1
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR b
 ASSIGN =
 IDENFR a1
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
 ELSETK else
 LBRACE {
 IDENFR b
 ASSIGN =
 IDENFR a2
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
 LPARENT (
 IDENFR a
+<因子>
+<项>
+<表达式>
 EQL ==
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
 LPARENT (
 IDENFR a
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
+<语句列>
 RBRACE }
+<语句>
 ELSETK else
 LBRACE {
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 WHILETK while
 LPARENT (
 IDENFR b
+<因子>
+<项>
+<表达式>
 LEQ <=
 IDENFR a1
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR b
 ASSIGN =
 IDENFR b
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<循环语句>
+<语句>
 WHILETK while
 LPARENT (
 IDENFR a
+<因子>
+<项>
 MINU -
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
+<语句列>
 RBRACE }
+<语句>
+<循环语句>
+<语句>
 DOTK do
 LBRACE {
 IDENFR b
 ASSIGN =
 IDENFR b
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
 WHILETK while
 LPARENT (
 IDENFR a
+<因子>
+<项>
 MINU -
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
 DOTK do
 LBRACE {
 IDENFR b
 ASSIGN =
 IDENFR b
+<因子>
+<项>
 MINU -
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
 WHILETK while
 LPARENT (
 IDENFR b
+<因子>
+<项>
+<表达式>
 GRE >
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
 FORTK for
 LPARENT (
 IDENFR b
 ASSIGN =
 IDENFR a2
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR b
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR a1
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR b
 ASSIGN =
 IDENFR b
 PLUS +
 INTCON 1
+<无符号整数>
+<步长>
 RPARENT )
 LBRACE {
 IDENFR a
 ASSIGN =
 IDENFR a
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<循环语句>
+<语句>
 FORTK for
 LPARENT (
 IDENFR b
 ASSIGN =
 IDENFR a2
+<因子>
+<项>
+<表达式>
 SEMICN ;
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR b
 ASSIGN =
 IDENFR b
 MINU -
 INTCON 1
+<无符号整数>
+<步长>
 RPARENT )
 LBRACE {
 IDENFR a
 ASSIGN =
 IDENFR a
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 IDENFR a
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<循环语句>
+<语句>
 IDENFR b
 ASSIGN =
 LPARENT (
 IDENFR b
+<因子>
+<项>
 MINU -
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<因子>
 DIV /
 LPARENT (
 INTCON 2
+<无符号整数>
+<整数>
+<因子>
 MULT *
 INTCON 4
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 IFTK if
 LPARENT (
 IDENFR b
+<因子>
+<项>
+<表达式>
 GRE >
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 RETURNTK return
 LPARENT (
 IDENFR b
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
 ELSETK else
 RETURNTK return
 LPARENT (
 IDENFR fun1
 LPARENT (
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<条件语句>
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 VOIDTK void
 MAINTK main
 LPARENT (
@@ -261,7 +560,19 @@ IDENFR fun
 LPARENT (
 IDENFR fun1
 LPARENT (
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
+<因子>
+<项>
+<表达式>
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>

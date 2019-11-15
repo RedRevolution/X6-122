@@ -4,4 +4,9 @@ LPARENT (
 RPARENT )
 LBRACE {
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>
