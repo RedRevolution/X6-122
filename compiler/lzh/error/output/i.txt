@@ -1,0 +1,3 @@
+8 i : Offset Not Integer
+10 i : Offset Not Integer
+12 i : Offset Not Integer

@@ -1,0 +1,21 @@
+1 a : Unrecognized symble
+2 a : Miss Sinqle Quote
+3 a : Unrecognized symble
+3 a : Miss Sinqle Quote
+4 a : Unrecognized symble
+4 a : Unrecognized symble
+5 a : Unrecognized symble
+6 a : Unrecognized symble
+7 a : Unrecognized symble
+9 a : Unrecognized symble
+10 a : Miss Equal
+14 a : NUMBER WITH ZERO AHEAD
+16 a : ILLEGAL CHAR IN STRING
+16 a : Miss Double Quote
+17 a : ILLEGAL CHAR IN STRING
+17 a : Miss Double Quote
+1 o : Const Value Illegal
+16 l : Miss Rparent
+16 k : Miss Semicon
+17 l : Miss Rparent
+17 k : Miss Semicon

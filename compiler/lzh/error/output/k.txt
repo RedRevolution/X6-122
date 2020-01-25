@@ -1,0 +1,14 @@
+1 o : Const Value Illegal
+1 k : Miss Semicon
+3 k : Miss Semicon
+4 k : Miss Semicon
+5 k : Miss Semicon
+7 k : Miss Semicon
+8 k : Miss Semicon
+9 k : Miss Semicon
+12 k : Miss Semicon
+15 k : Miss Semicon
+19 c : Undefined
+19 k : Miss Semicon
+20 k : Miss Semicon
+20 k : Miss Semicon
